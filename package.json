@@ -1,0 +1,30 @@
+{
+  "name": "merkle-distrib",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maswalker/merkle-tree.git"
+  },
+  "author": "maswalker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maswalker/merkle-tree/issues"
+  },
+  "homepage": "https://github.com/maswalker/merkle-tree#readme",
+  "devDependencies": {
+    "@types/node": "^16.11.10",
+    "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "ethereumjs-util": "^7.1.4",
+    "ethers": "^5.5.4"
+  }
+}
